@@ -1,0 +1,27 @@
+{
+  "name": "rn-apple-pay-api",
+  "version": "0.0.4",
+  "description": "A full functional Apple Pay package for React Native",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/younisrahman/Apple-Pay.git"
+  },
+  "keywords": [
+    "ApplePay",
+    "Apple Pay",
+    "React Native Apple Pay",
+    "React Native ApplePay",
+    "React Native Apple Pay with API call",
+    "Apple Pay with API call"
+  ],
+  "author": "Younis Rahman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/younisrahman/Apple-Pay-Api/issues"
+  },
+  "homepage": "https://github.com/younisrahman/Apple-Pay-Api#readme"
+}
