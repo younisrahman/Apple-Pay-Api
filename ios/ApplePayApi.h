@@ -7,13 +7,10 @@
 
 
 #import <PassKit/PassKit.h>
-#ifdef RCT_NEW_ARCH_ENABLED
-
-@interface ApplePayApi : NSObject <NativeApplePayApiSpec, PKPaymentAuthorizationViewControllerDelegate>
-#else
+#if __has_include("NativeApplePayApiSpec.h")
+  #import "NativeApplePayApiSpec.h"
+#endif
 #import <React/RCTBridgeModule.h>
 
 @interface ApplePayApi : NSObject <RCTBridgeModule, PKPaymentAuthorizationViewControllerDelegate>
-#endif
-
 @end
