@@ -36,6 +36,17 @@ Note: Make sure CocoaPods is installed and up to date. If you encounter issues, 
     pod repo update
 ```
 
+### 3. Add the Apple Pay Merchant Identifier to Info.plist
+
+In your iOS project, open the Info.plist file and add the following key:
+
+```xml
+<key>ApplePayMerchantIdentifier</key>
+<string>your merchant id</string>
+```
+
+### This ensures that your app is configured to use the correct Apple Pay merchant identifier. For more details on setting up the Apple Pay Merchant ID, refer to [Apple's official guide](https://developer.apple.com/documentation/apple_pay_on_the_web/configuring_your_environment).
+
 ---
 
 ###Usage
