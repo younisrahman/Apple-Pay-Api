@@ -1,6 +1,6 @@
 {
   "name": "rn-apple-pay-api",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A full functional Apple Pay package for React Native",
   "main": "index.tsx",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/younisrahman/Apple-Pay.git"
+    "url": "git+ssh://git@github.com:younisrahman/Apple-Pay-Api.git"
   },
   "keywords": [
     "ApplePay",
