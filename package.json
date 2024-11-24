@@ -1,6 +1,6 @@
 {
   "name": "rn-apple-pay-api",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A full functional Apple Pay package for React Native",
   "main": "index.tsx",
   "scripts": {
