@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ES2015",              // Target modern JavaScript
+      "module": "ESNext",              // Module system for modern JS
+      "lib": ["ES2015", "DOM"],        // Include Promises and DOM types
+      "outDir": "./lib",               // Output folder for compiled files
+      "rootDir": "./",              // Source folder
+      "declaration": true,             // Generate .d.ts files
+      "declarationMap": true,          // Map .d.ts files to source files
+      "sourceMap": true,               // Generate .map files
+      "strict": true,                  // Enable strict type checking
+      "esModuleInterop": true,         // Enable interoperability with CommonJS
+      "skipLibCheck": true             // Skip type checking for libraries
+    },
+    "include": ["index.tsx","ios/**/*" ],            // Include source files
+    "exclude": ["node_modules","**/__tests__/*", "Example/**/*" ]  // Exclude output and dependencies
+  }
+  
